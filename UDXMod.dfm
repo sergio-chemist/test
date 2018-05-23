@@ -1,9 +1,9 @@
 object frmDXMod: TfrmDXMod
   Left = 506
   Top = 170
-  Width = 675
-  Height = 533
-  Caption = 'DX Project Modifier'
+  Caption = 'DX Project Modifier GitHub Test'
+  ClientHeight = 494
+  ClientWidth = 659
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -40,6 +40,7 @@ object frmDXMod: TfrmDXMod
         PlainText = True
         ScrollBars = ssBoth
         TabOrder = 0
+        Zoom = 100
       end
     end
     object tsMod: TTabSheet
@@ -244,7 +245,6 @@ object frmDXMod: TfrmDXMod
               Align = alTop
               Anchors = [akLeft, akTop, akRight, akBottom]
               FileList = flbFiles
-              ItemHeight = 16
               TabOrder = 0
               OnChange = dlbDirsChange
               OnDblClick = dlbDirsChange
